@@ -22,6 +22,7 @@ public class Todo {
     @NotBlank
     private String title;
 
+
     private String description;
 
     private Boolean completed = false;
@@ -37,5 +38,4 @@ public class Todo {
         this.completed = completed;
     }
 
-    // Getters and setters
 }
