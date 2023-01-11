@@ -11,7 +11,7 @@ public class MytodolistApplication {
 
 @GetMapping("/")
 public String welcome(){
-	return "Welcome home";
+	return "Welcome! This is Azure - To do CRUD Api";
 }
 	public static void main(String[] args) {
 		SpringApplication.run(MytodolistApplication.class, args);
